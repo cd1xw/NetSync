@@ -1,0 +1,6 @@
+// this is a comment
+print, that
+throw, error, Hello,I am an Error!
+throw, warning, Hello,I am a warning!
+
+pause
