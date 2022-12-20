@@ -1,12 +1,12 @@
 package main
 
 import (
-	_ "bufio"
+	"bufio"
 	"fmt"
-	_ "os"
+	"os"
 	"strings"
 	_ "strings"
-
+  _ "time"
 	"github.com/fatih/color"
 	"github.com/lunux2008/xulu"
 )
@@ -23,7 +23,10 @@ func scancode(code []string, line int) string {
     }
   } else if strings.HasPrefix(code[0], "//") {
     output = ""
-  } else {
+  } else if code[0] == "pause"{
+    fmt.Println("Press Enter to continue...")
+    bufio.NewReader(os.Stdin).ReadBytes('\n') 
+  } else if code[0] == "" {} else {
     output = ""
     serror.Printf(fmt.Sprint("netsync: syntax-error[not-defined]: the function is not defined - line ", line, "\n"))
   }
