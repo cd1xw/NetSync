@@ -8,6 +8,5 @@ This content is protected by DMCA.com
 If you have something named NetSync dosen't mean that it will get taken down unless it's just a copy of my thing
 <br>
 <br>
-<font size="0.01px">I wish nothing was there named "NetSync" so that I could take the name</font>
 <br>
 Copyright 2021-2022 CDOTech©
